@@ -1,0 +1,1 @@
+This is a workaround for getting the duration of a mp3 file, on shared hosting (No access to ffmpeg).
