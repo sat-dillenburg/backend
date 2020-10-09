@@ -109,7 +109,7 @@ button {
   padding: 14px;
 
   &:hover {
-    background-color:#3a4c55;
+    background-color: #3a4c55;
   }
 }
 </style>
