@@ -1,8 +1,7 @@
 <?php
 
-$GITHUB_TOKEN = '';
-
 function triggerGithubWorkflow() {
+  $GITHUB_TOKEN = '';
   $client = new \GuzzleHttp\Client();
 
   $data = [
