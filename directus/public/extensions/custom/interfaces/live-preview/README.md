@@ -29,10 +29,14 @@ const handler = (event: MessageEvent) => {
   if (event.data === 'ping') {
     // and answer with pong, to say, you are alive
     (event.source as Window)?.postMessage('pong', event.origin);
+
+    // return and wait for data a second time
     return;
   }
 
-  // do something with event.data
+  // getting data a second time means that you are now getting the item data
+  // do something with it by accessing event.data
+  console.log(event.data);
 
   // you got the data, remove the listener now
   window.removeEventListener('message', handler);
