@@ -1,0 +1,17 @@
+{
+  "name": "live-preview",
+  "version": "1.0.0",
+  "types": ["alias"],
+  "icon": "visibility",
+  "options": {
+    "url_template": {
+      "name": "Vorschau Url",
+      "interface": "text-input",
+      "required": true,
+      "default": "https://example.com/preview",
+      "options": {
+        "placeholder": "https://example.com/preview"
+      }
+    }
+  }
+}
