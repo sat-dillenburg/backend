@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
     "build": "yarn run build:input && yarn run build:display",
     "build:input": "parcel build ./src/input.vue -d ./dist --no-source-maps --global __DirectusExtension__",

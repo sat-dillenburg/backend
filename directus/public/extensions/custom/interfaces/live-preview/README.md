@@ -1,5 +1,13 @@
 # live-preview
 
+## How to install?
+
+0. (_install yarn_)
+1. clone the project
+2. run `yarn install`
+3. Run `yarn build`
+
+
 ## How does this work?
 
 You are now able to add a live-preview interface to your directus collections.
