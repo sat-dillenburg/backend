@@ -100,7 +100,6 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 button {
-  margin-top: 10px;
   font-size: 16px;
   font-weight: 500;
   border-radius: 3px;
