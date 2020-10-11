@@ -39,7 +39,9 @@ const resolvers = {
   },
 
   file: async (_, fieldName, key) => {
-    const data = await client.getFile(`${key}`);
+    const isNumber = typeof key === 'number';
+    const data = isNumber ? await client.getFile(`${key}`) : { data: key };
+
     return { key: fieldName, data };
   },
 };
