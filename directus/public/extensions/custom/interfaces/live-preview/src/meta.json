@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "types": ["alias"],
   "icon": "visibility",
+  "hideLabel": true,
   "options": {
     "url_template": {
       "name": "Vorschau Url",
